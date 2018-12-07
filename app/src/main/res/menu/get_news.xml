@@ -3,14 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_search"
-        android:orderInCategory="1"
-        android:title="Refresh"
-        app:showAsAction="ifRoom"/>
-
-    <item
         android:id="@+id/action_clear"
         android:orderInCategory="2"
-        android:title="Clear"
+        android:title="@string/action_clear"
         app:showAsAction="ifRoom"/>
 </menu>
